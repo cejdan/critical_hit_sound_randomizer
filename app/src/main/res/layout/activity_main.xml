@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="168dp"
+        android:layout_height="106dp"
+        android:text="Miss!"
+        app:strokeColor="#AE4848" />
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="168dp"
+        android:layout_height="106dp"
+        android:text="Crit!" />
+
+</LinearLayout>
